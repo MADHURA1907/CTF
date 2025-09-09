@@ -3,7 +3,6 @@
 **Challenge Name:** Obedient Cat  
 **Author:** syreal  
 **Category:** General Skills  
-**Points:** 5  
 
 ---
 
@@ -47,5 +46,6 @@ Lessons Learned
 Learned how to use wget to download files from a URL.
 
 Practiced using the cat command to print file contents in Linux.
+
 
 Reinforced the importance of reading hints in problem statements carefully.
