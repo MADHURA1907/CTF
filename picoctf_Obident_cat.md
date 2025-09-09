@@ -23,7 +23,7 @@ Since it’s “in-the-clear,” no decoding or cracking is required.
 
 Likely solution: use the cat command to print the file.
 
- Steps to Solve
+##  Steps To Solve
 First, I downloaded the file using:
 
 bash
@@ -37,15 +37,14 @@ ls
 Finally, I displayed its contents with:
 
 bash
-Copy code
 cat flag
- Flag
-Copy code
+ 
+##  Flag
 picoCTF{s4n1ty_v3r1f13d_f28ac910}
-Lessons Learned
+
+
+##  Lesson Learned
 Learned how to use wget to download files from a URL.
-
 Practiced using the cat command to print file contents in Linux.
-
-
 Reinforced the importance of reading hints in problem statements carefully.
+
