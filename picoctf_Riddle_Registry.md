@@ -44,7 +44,7 @@ Since the file was downloaded on the Windows host system, a VirtualBox shared fo
 
 ---
 
-Step 3 — Extract Metadata
+### Step 3 — Extract Metadata
 
 ExifTool was used to inspect the PDF metadata:
 
@@ -55,7 +55,7 @@ Author : cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9jOGY5MWQ2OH0=
 
 ---
 
-Step 4 — Decode the Encoded String
+### Step 4 — Decode the Encoded String
 
 The encoded Author value was decoded using:
 
@@ -64,12 +64,12 @@ echo cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9jOGY5MWQ2OH0= | base64 -d
 
 ---
 
-Final Flag
-picoCTF{puzzl3d_m3tadata_f0und!_c8f91d68}
+# Final Flag
+## picoCTF{puzzl3d_m3tadata_f0und!_c8f91d68}
 
-Commands Used
-exiftool confidential.pdf
-echo cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9jOGY5MWQ2OH0= | base64 -d
+### Commands Used
+- exiftool confidential.pdf
+- echo cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9jOGY5MWQ2OH0= | base64 -d
 
  ### What Didn’t Work
 1. Searching for the flag in visible PDF text
